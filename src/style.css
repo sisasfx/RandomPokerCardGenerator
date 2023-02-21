@@ -1,1 +1,41 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+.container-fluid {
+  background: green;
+}
+#carta {
+  height: 500px;
+  width: 300px;
+  border: 6px solid black;
+  background: white;
+}
+#simboloUp {
+  display: flex;
+  justify-content: start;
+  margin-top: -1rem;
+}
+#simboloDown {
+  display: flex;
+  justify-content: end;
+}
+#numCarta {
+  height: 50%;
+  display: flex;
+  justify-content: center;
+}
+#numCarta > p {
+  margin-top: 25%;
+}
+#elemento1 {
+  font-size: 5em;
+}
+#elemento2 {
+  font-size: 5em;
+}
+#elemento3 {
+  font-size: 5em;
+  margin-top: 1rem;
+  transform: rotate(-0.5turn);
+}
+button {
+  background-color: red;
+}
